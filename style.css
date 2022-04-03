@@ -1,0 +1,17 @@
+#map-wrapper {
+  background-color: red;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+main {
+  width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+#main-title {
+  margin-bottom: 10px;
+}
