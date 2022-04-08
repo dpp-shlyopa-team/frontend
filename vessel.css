@@ -1,0 +1,19 @@
+
+
+#map-wrapper {
+    background-color: red;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: rgb(112, 79, 114) ;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    opacity: 0.75;
+}
