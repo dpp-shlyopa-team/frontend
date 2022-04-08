@@ -1,5 +1,5 @@
 #map-wrapper {
-	background-color: red;
+	background-color: rgb(205, 37, 218);
 	width: 800px;
 	height: 400px;
 	margin: auto;
@@ -7,37 +7,32 @@
 }
 
 nav {
-	background-color: rgb(112, 79, 114);
+	background-color: rgb(255, 255, 255);
 }
 
 body {
 	position: relative;
-	background: url(background.jpg)
+	background: url(background.png)
 		center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-body:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.75);
-	z-index: 2;
-}
+
 
 .inner {
 	position: relative;
 	z-index: 3;
-	color: #fff;
+	color: rgb(15, 15, 15);
 	text-align: center;
 	padding: 50px;
 }
 
 table, th, tbody {
-	color: #fff;
-	border-color: #fff;
+	color: rgb(12, 12, 12);
+	border-color: rgb(7, 7, 7);
+}
+
+ul {
+    opacity: 0.5;
 }
