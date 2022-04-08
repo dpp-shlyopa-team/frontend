@@ -15,3 +15,21 @@ main {
 #main-title {
   margin-bottom: 10px;
 }
+
+body {
+	position: relative;
+	background: url(background.png)
+		center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.inner {
+	position: relative;
+	z-index: 3;
+	color: rgb(15, 15, 15);
+	text-align: center;
+	padding: 50px;
+}
