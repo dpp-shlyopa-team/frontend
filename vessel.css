@@ -1,19 +1,38 @@
-
-
 #map-wrapper {
-    background-color: red;
-    width: 800px;
-    height: 400px;
-    margin: auto;
-    margin-top: 20px;
+	background-color: red;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+	margin-top: 20px;
 }
 
 nav {
-    background-color: rgb(112, 79, 114) ;
+	background-color: rgb(112, 79, 114);
 }
 
 body {
-    background-image: url("background.jpg");
-    background-size: cover;
-    opacity: 0.75;
+	position: relative;
+	background: url(background.jpg)
+		center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+body:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.75);
+	z-index: 2;
+}
+
+.inner {
+	position: relative;
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
 }
