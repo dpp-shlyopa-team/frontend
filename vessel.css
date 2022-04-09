@@ -1,5 +1,5 @@
 #map-wrapper {
-	background-color: rgb(150, 200, 212);
+	background-color: rgb(180, 212, 241);
 	width: 800px;
 	height: 400px;
 	margin: auto;
@@ -7,7 +7,6 @@
 }
 
 nav {
-	background-color: rgb(254, 254, 254);
     opacity: 0.9;
 }
 
