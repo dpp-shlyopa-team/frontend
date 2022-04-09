@@ -7,7 +7,8 @@
 }
 
 nav {
-	background-color: rgb(176, 215, 230);
+	background-color: rgb(254, 254, 254);
+    opacity: 0.9;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 		center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+    opacity: 0.9;
 }
 
 
@@ -40,8 +42,7 @@ ul {
 }
 
 h1 {
-    font-weight: 50 ;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 table {
